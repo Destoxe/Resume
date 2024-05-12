@@ -11,12 +11,8 @@ body{
     background-color: #f2f2f2;
     height: 100%;
     width: 100%;
-}
-/* Hide scrollbar gutter */
-::-webkit-scrollbar {
-    display: none;
-}
 
+}
 
 .container li {
     list-style-type: none;
@@ -27,7 +23,6 @@ body{
     font-size: 20px;
     line-height:1.5em;
     padding-left: 20px;
-    padding-right: 20px;
 
 }
 
@@ -37,9 +32,11 @@ body{
     padding: 20px 10px;
 
 }
-
-.info {
-    padding-top: 15px;
+.upper-box  h1{
+    font-size: 8vw;
+}
+.info{
+    padding-top: 5px;
     font-size: 16px;
     line-height: 100%;
     padding-bottom: 20px;
