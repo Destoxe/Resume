@@ -33,11 +33,11 @@ body{
 .upper-box {
     text-align: center;
     line-height: none;
-    padding: 20px 20px;
+    padding-top: 20px ;
 
 }
 .upper-box  h1{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 700;
     /* font-family: Comic Sans MS, Comic Sans, cursive; */
     /* font-family: 'Dancing Script', cursive; */
@@ -64,6 +64,7 @@ body{
 
 } 
 .about{
+    padding-top: 20px;
     padding-bottom: 20px;
     text-align: justify;
 }
