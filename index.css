@@ -13,9 +13,6 @@ body{
     width: 100%;
 
 }
-.webkit ::-webkit-scrollbar {
-    display: none;
-}
 
 
 .container li {
@@ -27,7 +24,7 @@ body{
     font-size: 20px;
     /* line-height:1.5em; */
     padding-left: 20px;
-    padding-right: 10px;
+    padding-right: 20px;
 
 }
 
@@ -41,7 +38,7 @@ body{
 }
 .upper-box  h1{
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 700;
     /* font-family: Comic Sans MS, Comic Sans, cursive; */
     /* font-family: 'Dancing Script', cursive; */
      /* font-family: 'Great Vibes', cursive; */
