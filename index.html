@@ -13,7 +13,7 @@
             <h1>Shakir Manzoor</h1>
             <div class="info">
                 <p class="infop">Front End Developer</p>
-                <a href="mailto:shakirshah7733@gmail.com?subject=Feedback&body=Dear%20Recipient,">shakirshah7733@gmail.com</a>
+                <a href="mailto:shakirshah7733@gmail.com">shakirshah7733@gmail.com</a>
                  <p class="infop">&#x260E; 7780984278 </p>
             </div>
             <hr>
@@ -30,7 +30,7 @@
         <div class = starting-section>
 
 
-        <h2>Education   </h2>
+        <h2><u>Education </u>  </h2>
         <ul>
             <li>2023-2027: B.C.A</li>
             <li>2020-2023: Higher Secondary School</li>
@@ -41,7 +41,7 @@
          </section>
          <section>
         <div class="skills">
-            <h2>Skills</h2>
+            <h2><u>Skills</u></h2>
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -54,7 +54,7 @@
          </section>
          <section>
         <div class="interest">
-            <h2>Interests</h2>
+            <h2><u>Interests</u></h2>
             <ul>
                 <li>Reading</li>
                 <li>Watching Movies</li>
@@ -65,9 +65,16 @@
           </section>
 
         <footer>
-        <button type="button" onclick="window.print()">Print </button>
+        <button  id="print" type="button" onclick="printresume()">Print </button>
         </footer>
     </div>
-      
+    <script>
+        function printresume() {
+            var printButton = document.getElementById("print");
+            printButton.style.display = "none";
+            window.print();
+        }
+
+    </script> 
 </body>
 </html>
